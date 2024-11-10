@@ -2,7 +2,7 @@
 
 	rollout rol_selectByNameRollout "Select Objects by Name"
 	(
-		groupbox ObjectSelect "Enter to search Objects by Name: " width:330 height:95 pos:[3,3]
+		groupbox ObjectSelect "Search Objects by Name: " width:330 height:95 pos:[3,3]
 		editText nameInput "Search for:" fieldWidth:260 pos:[10,30] height:18 align:#left
 		button selectBtn "..:: Select Objects ::.." width:315  pos:[10,60] height:32 align:#left
 	
